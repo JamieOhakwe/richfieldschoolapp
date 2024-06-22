@@ -7,8 +7,8 @@ const About = () => {
   return (
     <>
       <NavBar/>
-      {/* <SectionBanner/> */}
-      <SignupCard/>
+      <SectionBanner/>
+      {/* <SignupCard/> */}
     </>
   )
 }
