@@ -96,7 +96,7 @@ const NavBar = () => {
 				</div>
 				<div className="navbar-end ">
 					<Link href={'/admission'}>
-					 <div  className="btn bg-white text-black">Join Us</div>
+					 <div  className="btn bg-white text-xl text-blue-950">Portal</div>
 					</Link>
 				</div>
 			</div>

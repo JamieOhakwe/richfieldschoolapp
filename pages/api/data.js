@@ -23,11 +23,6 @@ export default async function handler(req, res) {
         res.status(405).json({ message: 'Method not allowed' });
     }
 
-    const cors = require('cors');
-
-app.use(cors({
-    origin: 'http://your_frontend_domain', // Replace with your frontend domain
-    credentials: true, // If you're sending cookies
-}));
+  
 
 }

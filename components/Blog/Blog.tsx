@@ -10,7 +10,7 @@ const Blog = () => {
 			<div className="p-3 w-full">
 				<span className="text-blue-950 text-xl m-4 mb-6 p-3 font-bold ">School Blog</span><br />
                 
-			<div className="flex justify-around">
+			<div className="flex justify-around md:flex-row gap-5 flex-col">
 
 				<div className="bg-blue-200 w-[22rem] rounded-xl p-3 shadow">
 					<Image src={collegeGirl} height={200} width={400} alt="" className="flex m-auto rounded-xl" />
