@@ -7,10 +7,10 @@ const Downloads = () => {
     <>
         <div className='  w-full min-h-[12rem]  '>
 
-            <div className='   w-full min-h-[12rem] flex'
+            <div className='   w-full min-h-[12rem] flex flex-col md:flex-row '
     >           
                 <span className='text-blue-700'>Downloads</span>
-                <div className=' w-[50rem] bg-white m-auto flex flex-col md:flex-row gap-2'>
+                <div className='  bg-white m-auto flex items-center justify-center flex-col md:flex-row gap-2'>
                     <div className='flex p-4 gap-2 relative '>
                     
                         <div className='bg-blue-700  py-3 px-5 rounded shadow text-white hover: cursor-pointer hover:bg-blue-900 hover:text-white hover:shadow-2xl hover:border-blue-950'>
@@ -33,7 +33,7 @@ const Downloads = () => {
 
                         <a href="#">Download Newsletter</a>
                         </div>
-                    </div>\
+                    </div>
                     <div className='flex p-4 gap-2'>
 
                         <div className='bg-blue-700 py-3 px-5 rounded shadow text-white'>
