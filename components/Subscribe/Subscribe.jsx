@@ -5,10 +5,10 @@ const Subscribe = () => {
     <>
         <div className='bg-yellow-400  h-[20rem] text-blue-950  flex items-center justify-center '>
 
-            <div className='mx-[2rem]'>
+            <div className='mx-[2rem] flex flex-col items-center justify-center'>
                 <div>
-                    <span className=' text-[1.5rem] '>Subscribe</span><br />
-                    <span> Sign up with your email address to receive our newsletters and updates</span>
+                    <span className=' text-[1.5rem] flex item-center justify-center font-bold '>Subscribe!</span><br />
+                    <span className=' flex text-center'> Sign up with your email address to receive our newsletters and updates</span>
                 </div>
                 <div>
                     <div className='flex mt-5  md:flex-row gap-5 flex-col'>

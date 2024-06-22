@@ -6,8 +6,9 @@ const Admission = () => {
 	return (
 		<>
 			
-			<div className="flex relative">
-				<div className="bg-gray-200 flex-1 justify-end flex">
+			<div className="flex relative flex-col md:flex-row">
+				<div className="bg-gray-200 flex-1 justify-end md:block hidden">
+					
 					<Image
 						width={500}
 						height={700}
@@ -15,10 +16,19 @@ const Admission = () => {
 						src={"/img/signup-image.jpeg"}
 					/>
 				</div>
-				<div className="bg-white  flex-1 w-[8rem]  flex flex-col relative items-center text-gray-800 ">
-					<div className="font-bold text-blue-950 text-[2rem]  relative top-10">
+				<div className="bg-gray-200 border flex flex-col  items-center justify-center md:hidden">
+					
+					<Image
+						width={300}
+						height={100}
+						alt="girl smiling"
+						src={"/img/signup-image.jpeg"}
+					/>
+					<span className="font-bold text-blue-950 text-[2rem] ">
 						SIGN UP
-					</div>
+					</span>
+				</div>
+				<div className="bg-white  flex-1 w-[8rem]  flex flex-col relative items-center justify-center text-gray-800 ">
 					
 					<form
 						action=""
@@ -43,9 +53,10 @@ const Admission = () => {
 						/>
             <button className="bg-blue-950 h-[2.5rem] rounded-full mt-5 text-white w-[20rem]">REGISTER</button>
 					</form>
-					<div className="text-xl text-gray-600 "> Go back
+					<div className=" text-gray-600 p-5 flex item-center justify-center bg-red-100 rounded-xl"> 
+						<span className="max-w-[5rem]">Go back</span>
 						<Link href={'/'}>
-						<span className="text-blue-950 ml-3">HOME</span>
+						<span className="text-red-500 font-bold ml-3">HOME</span>
 						</Link>
 					</div>
 				</div>
