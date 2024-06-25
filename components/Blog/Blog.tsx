@@ -10,7 +10,7 @@ const Blog = () => {
 			<div className="p-3 w-full">
 				<span className="text-blue-950  text-xl m-4 mb-6 p-3 font-bold ">School Blog</span><br />
                 
-			<div className="flex items-center mt-5 md:flex-row gap-5 flex-col ">
+			<div className="flex items-center justify-center mt-5 md:flex-row gap-5 flex-col ">
 
 				<div className="bg-blue-200 w-[22rem] rounded-xl p-3 shadow">
 					<Image src={collegeGirl} height={200} width={400} alt="" className="flex m-auto rounded-xl" />
@@ -29,7 +29,7 @@ const Blog = () => {
 				<div className="bg-blue-200 w-[22rem] rounded-xl p-3">
 					<Image src={blog2} height={200} width={400} alt="" />
 					<span className="font-bold text-gray-800  mb-3 bg-blue-200">
-					Examamination Tips to<span className="text-red-600 ">smash your grades</span> in third term
+					Examination Tips to<span className="text-red-600 ">smash your grades</span> in third term
 				</span>
 					<div>
 						<span>
