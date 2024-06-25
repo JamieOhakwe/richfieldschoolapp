@@ -12,6 +12,7 @@ const Modal = ({ children, onClose }) => {
     <>
       {isOpen && (
         <div className="modal">
+          <span> This is my Modal</span>
           <div className="modal-content">{children}</div>
           <button onClick={handleClose}>Close</button>
         </div>

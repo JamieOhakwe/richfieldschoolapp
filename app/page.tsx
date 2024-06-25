@@ -21,13 +21,9 @@ import lab from "../public/img/landingImage/lab.jpg"
 import post2 from "../public/img/landingImage/post2.png"
 import Carousel from "@/components/Carousel/Carousel";
 import Modal from "@/components/Modal/Modal";
-import { useState } from "react";
+
 
 export default function Home() {
-	const [showModal, setShowModal] = useState(false);
-
-	const openModal = () => setShowModal(true);
-	const closeModal = () => setShowModal(false);
 		
 
 		
@@ -37,7 +33,7 @@ export default function Home() {
 		<>
 			<NavBar/>
 			<Hero2/>
-			<Modal/>
+			{/* <Modal /> */}
 			<ImageSlider />
 			<Categories/>
 			<Hero/>				
