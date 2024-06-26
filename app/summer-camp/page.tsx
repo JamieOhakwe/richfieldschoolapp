@@ -9,7 +9,7 @@ const SummerSchool = () => {
             <div className='md:w-[40rem] text-blue-950 flex flex-col'>
                 <div>
 
-                    <span className='bg-blue-900 text-white px-[1rem] mb-5 font-bold py-3'>2024  RICHFIELD VACATION SCHOOL: </span>
+                    <span className='bg-blue-900 text-white  mb-5 font-bold py-3'>2024  RICHFIELD VACATION SCHOOL: </span>
                     <span className='text-blue-950 flex mt-2 font-bold text-l border'>Empowering Young Minds with life changing Skills</span>
                 </div>
                 <Image
