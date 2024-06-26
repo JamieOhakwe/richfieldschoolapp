@@ -51,7 +51,7 @@ const Categories = () => {
                 
             ))}            
                      <Modal2 className='absolute' />   
-                     <span className='absolute'>Modal here jor</span>
+                     
             
             </div>
         </div>
