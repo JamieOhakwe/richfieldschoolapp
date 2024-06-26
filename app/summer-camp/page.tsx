@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const SummerSchool = () => {
@@ -8,13 +9,13 @@ const SummerSchool = () => {
             <div className='md:w-[40rem] text-blue-950 flex flex-col'>
                 <div>
 
-                    <span className='bg-blue-900 text-white px-[1rem] mb-5 font-bold py-3'>2024  RICHFIELD LONG VACATION SCHOOL: </span>
+                    <span className='bg-blue-900 text-white px-[1rem] mb-5 font-bold py-3'>2024  RICHFIELD VACATION SCHOOL: </span>
                     <span className='text-blue-950 flex mt-2 font-bold text-l border'>Empowering Young Minds with life changing Skills</span>
                 </div>
                 <Image
                 height={200}
                 width={300}
-                style={{height: "25rem", width:"28rem", opacity: "20"}}
+                style={{height: "20rem", width:"28rem", opacity: "20"}}
                 // fill
                 src="/img/landingImage/Summer-school2.jpg"
                 alt="Summer School"
@@ -54,7 +55,10 @@ const SummerSchool = () => {
                 </ul>
                 <div className='flex flex-col mt-3'>
                     <span>Click the button below to secure your spot</span>
-                    <button className='bg-blue-950 rounded-xl my-2  px-5 py-3 text-white'>Register Now!</button>
+                    <Link href='/summer-camp/register'>
+                    <button className='bg-blue-950 rounded-xl my-2 w-full  px-5 py-3 text-white'>Register Now!</button>
+                    </Link>
+
                     <span>Join us for a fun-filled educational fiesta that prepares young minds for a future driven by innovation!
 
 </span>
