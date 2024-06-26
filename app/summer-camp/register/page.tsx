@@ -1,4 +1,4 @@
-import { Label } from '@headlessui/react'
+// import { Label } from '@headlessui/react'
 import React from 'react'
 
 const Register = () => {
@@ -7,30 +7,30 @@ const Register = () => {
     
     <div>Register</div>
     <div className='flex item-center justify-center '>
-        <div className='bg-white w-[20rem]  p-4  '>
+        <div className='bg-white w-[20rem] shadow-xl p-4 rounded-xl '>
 
-            <form className='flex flex-col '>
+            <form className='flex flex-col gap-2 text-blue-950  mb-4 '>
                 <span>First Name:</span>
                 <input className='bg-blue-200 ' type="text" />
-                <br />
+                
                 <span>Last Name:</span>
                 <input className='bg-blue-200 ' type="text" />
-                <br />
-                <span>Email</span><br />
+                
+                <span>Email</span>
                 <input className='bg-blue-200 ' type="password" />
-                <br />
-                <span>Phone number</span><br />
+            
+                <span>Phone number</span>
                 <input className='bg-blue-200 ' type="text" />
-                <br />
+                
                 <span>School</span>
-                <select>
+                <select className='bg-blue-200'>
                     <option value="1">Select school</option>
                     <option value="1">Pre-school</option>
                     <option value="2">Elementary</option>
                     <option value="2">College</option>
-                </select><br />
+                </select>
                 <span>Class</span>
-                <select>
+                <select className='bg-blue-200'>
                     <option value="1">Select class</option>
                     <option value="1">Year 1</option>
                     <option value="2">Year 2</option>
