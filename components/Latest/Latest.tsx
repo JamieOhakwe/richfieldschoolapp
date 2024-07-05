@@ -8,7 +8,7 @@ const Latest = () => {
     <>
     <div className='bg-blue-950 w-full min-h-[25rem] p-3 m-auto text-white'>
         <span className='flex flex-col text-2xl font-bold p-5 text-center '>Latest Videos </span>
-      <div className='flex flex-col lg:flex-row gap-[2rem] relative items-center mx-auto '>
+      <div className='flex flex-col md:flex-row gap-[2rem] relative items-center mx-auto '>
 
           <div>
               

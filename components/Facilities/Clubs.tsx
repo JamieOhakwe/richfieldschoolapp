@@ -9,7 +9,7 @@ const Clubs = () => {
     <>
       <div className='bg-white min-h-[20rem] w-full flex flex-col p-3 text-blue-950 font-bold'>
         <span className='text-center text-2xl my-3'>Our Clubs</span>
-        <div className='flex flex-col lg:flex-row gap-[2rem] mb-[2rem]'>
+        <div className='flex flex-col md:flex-row gap-[2rem] mb-[2rem]'>
           <div className='m-auto'>
               <Image
                 width={500}
